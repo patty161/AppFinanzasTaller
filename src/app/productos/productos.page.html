@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-searchbar (ionInput)="getItems($event)"> </ion-searchbar>
+<ion-list>
+  <ion-item>
+    <ion-avatar>
+      <img src="assets/imgs/icono.png" alt="">
+    </ion-avatar>
+    <h2>Nombre producto</h2>
+    <p style="word-wrap: break-word; white-space: normal;">Probando este contenido</p>
+  </ion-item>
+</ion-list>
+
+<ion-fab right bottom>
+  <button ion-fab color="primary">
+    <ion-icon name="add-circle"></ion-icon>
+  </button>
+</ion-fab>
+</ion-content>

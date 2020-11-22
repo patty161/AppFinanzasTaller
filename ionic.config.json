@@ -1,5 +1,7 @@
 {
   "name": "appFinanzas",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
