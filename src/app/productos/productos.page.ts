@@ -25,10 +25,10 @@ export class ProductosPage implements OnInit {
 
   }
   editar(item){
-    console.log("operacoin editar")
+    console.log("operacion editar")
   }
   eliminar(item){
-    console.log("operacoin eliminar")
+    console.log("operacion eliminar")
 
   }
 }
