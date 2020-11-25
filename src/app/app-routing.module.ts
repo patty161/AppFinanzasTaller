@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'contabilidad',
     loadChildren: () => import('./contabilidad/contabilidad.module').then( m => m.ContabilidadPageModule)
+  },
+  {
+    path: 'agregar-producto',
+    loadChildren: () => import('./agregar-producto/agregar-producto.module').then( m => m.AgregarProductoPageModule)
   }
 ];
 @NgModule({
