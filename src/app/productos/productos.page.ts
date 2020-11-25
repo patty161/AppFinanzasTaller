@@ -21,7 +21,7 @@ export class ProductosPage implements OnInit {
   agregarProducto(){
     //this.navCtrl.push(agregarPage);
    // var modal= this.modalController.create();
-   console.log("operacoin agregar")
+   console.log("operacion agregar")
 
   }
   editar(item){
